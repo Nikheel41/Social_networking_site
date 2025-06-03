@@ -1,0 +1,114 @@
+.{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Make sure the page takes full height */
+html, body {
+margin: 0;
+padding: 0;
+height: 100%;
+font-family: Arial, sans-serif;
+display: flex;
+flex-direction: column;
+}
+
+/* Push footer to bottom */
+body {
+justify-content: space-between;
+}
+
+/* Style footer */
+footer {
+text-align: center;
+padding: 20px;
+background-color: #fff;
+font-size: 14px;
+color: #000;
+}
+
+/* Style footer links */
+footer nav a {
+margin: 0 10px;
+text-decoration: none;
+color: #333;
+}
+
+footer nav a:hover {
+color: orange;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+  color: #111;
+}
+
+.about-container {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.heading .small-title {
+  color: #ea6b1d;
+  letter-spacing: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.heading h1 {
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.about-content {
+  position: relative;
+}
+
+.bg-logo {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  max-width: 250px;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.text-block {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #222;
+}
+
+.highlight {
+  color: #ea6b1d;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .heading h1 {
+    font-size: 32px;
+  }
+
+  .bg-logo {
+    max-width: 180px;
+  }
+
+  .text-block {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+}

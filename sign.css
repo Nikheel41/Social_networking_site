@@ -1,0 +1,129 @@
+. {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.left-section {
+    max-width: 400px;
+    text-align: center;
+}
+
+.logo-image {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.tagline {
+    font-size: 18px;
+    color: #333;
+}
+
+.right-section {
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.login-button {
+    background-color: #f06500;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.login-button:hover {
+    background-color: #d65400;
+}
+
+.forgot-password {
+    text-align: center;
+    color: #f06500;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.create-account-button {
+    background-color: #f06500;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.create-page-text {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 16px;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+    background-color: #f0f2f5;
+    margin-top: auto;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #333;
+    text-decoration: none;
+}
